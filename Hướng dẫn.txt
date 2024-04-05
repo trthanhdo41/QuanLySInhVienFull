@@ -1,0 +1,99 @@
+===========================TÓM TẮT CODE=============================
+
+1.Thêm sinh viên mới.
+  + Nhập số lượng sinh viên:	
+  + Bạn có muốn thêm ... sinh viên? (Y/N):
+
+2.Sửa thông tin sinh viên.
+  + Nhập mã sinh viên cần sửa thông tin (hoặc nhập 'cancel' để hủy):
+  + Bạn có muốn sửa thông tin sinh viên này không? (Y/N): 
+
+3.Xóa sinh viên: Cho phép người dùng xóa một sinh viên khỏi danh sách sinh viên.
+  + 1. Xóa tất cả sinh viên trong danh sách.
+  + 2. Xóa sinh viên theo mã sinh viên.
+  + 3. Xóa sinh viên theo vị trí trong danh sách.
+  + 4. Khôi phục sinh viên vừa xóa.
+  + 5. Thùng rác.
+
+4.Hiển thị danh sách sinh viên: Hiển thị danh sách tất cả các sinh viên đang có trong hệ thống.
+
+5.Hiển thị môn học có sẵn: Hiển thị danh sách các môn học có sẵn để gán cho sinh viên.
+
+6.Thêm môn học mới cho sinh viên: Cho phép người dùng thêm một môn học mới và gán cho một sinh viên.
+  + Nhập mã số sinh viên cần thêm môn học (hoặc bấm 'cancel' để thoát): 
+  + Nhập số lượng môn học cần thêm: 
+   	 Mã môn học: 
+    	 Tên môn học: 
+    	 Nhập số tín chỉ: 
+  + Bạn có muốn xác nhận thông tin nhập không? (Y/N): 
+
+7.Thêm sinh viên vào môn học: Gán một sinh viên đã tồn tại vào một môn học có sẵn.
+  + Nhập mã số sinh viên cần thêm môn học (hoặc bấm 'cancel' để thoát): 
+  + Danh sách môn học có sẵn:
+	1. Mã môn học: IT - Tên môn học: Trí tuệ nhân tạo - Số tín chỉ: 3
+	2. Mã môn học: MKT - Tên môn học: Marketing căn bản - Số tín chỉ: 4
+	3. Mã môn học: ENG7 - Tên môn học: Tiếng Anh 7 - Số tín chỉ: 3
+	4. Mã môn học: MATH - Tên môn học: Toán cao cấp - Số tín chỉ: 4
+	5. Mã môn học: PHY - Tên môn học: Vật lý đại cương - Số tín chỉ: 3
+	6. Mã môn học: CHEM - Tên môn học: Hóa học cơ bản - Số tín chỉ: 3
+	7. Mã môn học: BIO - Tên môn học: Sinh học cơ bản - Số tín chỉ: 3
+	8. Mã môn học: HIST - Tên môn học: Lịch sử thế giới - Số tín chỉ: 3
+	9. Mã môn học: GEOM - Tên môn học: Hình học không gian - Số tín chỉ: 4
+	10. Mã môn học: COMP - Tên môn học: Lập trình căn bản - Số tín chỉ: 4
+  + Nhập mã môn học cần thêm cho sinh viên: 
+
+8.Sửa thông tin môn học cho sinh viên:
+  + Nhập mã số sinh viên cần sửa môn học (hoặc bấm 'cancel' để thoát): 
+  + Danh sách môn học của sinh viÊN  ...... :
+	1. IT - Trí tuệ nhân tạo - 3
+	Nhập chỉ số của môn học cần sửa: 1
+	Thông tin cũ của môn học:
+	Mã môn học: IT
+	Tên môn học: Trí tuệ nhân tạo
+	Số tín chỉ: 3
+	Nhập thông tin mới cho môn học:
+	Mã môn học mới: ....
+
+9.Xóa môn học cho sinh viên:
+  + 1. Xóa tất cả môn học của sinh viên
+  + 2. Xóa một môn học của sinh viên
+  + 3. Khôi phục môn học đã xóa của sinh viên
+
+10.Hiển thị danh sách sinh viên kèm theo môn học: Hiển thị danh sách sinh viên kèm theo các môn học mà họ đã được gán.
+
+11.Sắp xếp danh sách sinh viên và môn học:
+   ===== MENU SẮP XẾP =====
+  + 1. Sắp xếp sinh viên
+  + 2. Sắp xếp môn học
+  + 0. Quay lại
+
+  CHỌN 1 THÌ:
+	===== MENU SẮP XẾP SINH VIÊN =====
+      + 1. Sắp xếp theo tên A-Z
+      + 2. Sắp xếp theo tên Z-A
+      + 3. Sắp xếp theo giới tính Nam-Nữ
+      + 4. Sắp xếp theo giới tính Nữ-Nam
+      + 0. Quay lại
+  cHỌN 2 THÌ:
+	===== MENU SẮP XẾP MÔN HỌC =====
+      + 1. Sắp xếp theo tên môn A-Z
+      + 2. Sắp xếp theo tên môn Z-A
+      + 3. Sắp xếp theo số tín chỉ tăng dần
+      + 4. Sắp xếp theo số tín chỉ giảm dần
+      + 0. Quay lại
+
+12.Thêm điểm cho sinh viên: Thêm điểm cho một sinh viên trong một môn học cụ thể.
+  + Nhập mã số sinh viên cần thêm điểm (hoặc nhập 'cancel' để thoát): 
+
+13.Sửa điểm cho sinh viên: Chỉnh sửa điểm của một sinh viên trong một môn học cụ thể.
+  + Nhập mã số sinh viên cần sửa điểm (hoặc nhập 'cancel' để thoát): 
+
+14.Xóa điểm của sinh viên:
+  + Nhập mã số sinh viên cần xóa điểm (hoặc nhập 'cancel' để thoát): 
+
+15.Hiển thị bảng điểm: Hiển thị bảng điểm của một sinh viên.
+  + Nhập mã số sinh viên cần hiển thị bảng điểm (hoặc bấm 'cancel' để thoát): 
+
+16.Xuất danh sách sinh viên ra file: Xuất danh sách sinh viên ra một tập tin văn bản.
+  + Nhập tên file xuất danh sách sinh viên: 
+  + Sẽ xuất ra trong thư viện file.
